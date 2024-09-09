@@ -1,10 +1,71 @@
 html {
-    height: 100%;
-    width: 100%;
-  }
+  height: 100%;
+  width: 100%;
+}
 
-  body {
-    font-family: 'Puppins', sans-serif;
-    line-height: 15px;
-    background-color: #f4f4f4;
-  }
+body {
+  font-family: 'Poppins', sans-serif; /* Corregí la fuente a 'Poppins' */
+  line-height: 1.2; /* Ajusté el line-height para que sea más consistente */
+  background-color: #ffffff; /* Fondo blanco para el cuerpo */
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+  flex: 1; /* Para que el contenedor ocupe el espacio disponible entre el navbar y el footer */
+  background-color: rgba(200, 200, 200, 0.5); /* Gris con transparencia para el contenedor */
+}
+
+/* Estilos para el navbar */
+nav {
+  background-color: #000000; /* Fondo negro para el navbar */
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white; /* Letras blancas en el navbar */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el contenido principal */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+main p {
+  background-color: #f4f4f4; /* Fondo gris claro para el contenido */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #000000; /* Fondo negro para el footer */
+  color: white;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  position: static; /* Está al final del documento */
+}
