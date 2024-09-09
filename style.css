@@ -4,22 +4,20 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif; /* Corregí la fuente a 'Poppins' */
-  line-height: 1.2; /* Ajusté el line-height para que sea más consistente */
-  background-color: #ffffff; /* Fondo blanco para el cuerpo */
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
 }
 
-/* Contenedor principal */
 .container {
-  flex: 1; /* Para que el contenedor ocupe el espacio disponible entre el navbar y el footer */
-  background-color: rgba(200, 200, 200, 0.5); /* Gris con transparencia para el contenedor */
+  flex: 1;
+  background-color: rgba(200, 200, 200, 0.5);
 }
 
-/* Estilos para el navbar */
 nav {
-  background-color: #000000; /* Fondo negro para el navbar */
+  background-color: #000000;
   padding: 10px;
 }
 
@@ -36,7 +34,7 @@ nav li {
 }
 
 nav a {
-  color: white; /* Letras blancas en el navbar */
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
@@ -45,29 +43,18 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Estilos para el contenido principal */
 main {
   padding: 20px;
   text-align: center;
 }
 
 main p {
-  background-color: #f4f4f4; /* Fondo gris claro para el contenido */
+  background-color: #f4f4f4;
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 15px;
   max-width: 800px;
   margin: 20px auto;
-}
-
-/* Estilos para el footer */
-footer {
-  background-color: #000000; /* Fondo negro para el footer */
-  color: white;
-  text-align: center;
-  padding: 5px;
-  width: 100%;
-  position: static; /* Está al final del documento */
 }
 
 form {
@@ -98,14 +85,81 @@ form textarea {
   min-height: 150px;
 }
 
-
 h1, p {
-  text-align: center; 
-  color: #000000; 
+  text-align: center;  
   margin: 20px 0;
 }
 
 p {
   max-width: 600px; 
   margin: 10px auto; 
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  position: static;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px; 
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  max-height: 450px; 
+  object-fit: cover; 
+  border-radius: 8px; 
+}
+
+/* Contenedor de la sección */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto; /* Centra el contenedor en el centro de la página */
+  text-align: center; /* Centra el texto dentro de la sección */
+}
+
+/* Contenedor de la sección */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto; /* Centra el contenedor en el centro de la página */
+  text-align: center; /* Centra el texto dentro de la sección */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  background-color: rgba(200, 200, 200, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.text-content {
+  max-width: 700px;
+  margin-bottom: 20px;
+  background-color: rgba(220, 220, 220, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 8px;
 }
