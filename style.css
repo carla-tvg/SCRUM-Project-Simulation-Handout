@@ -175,3 +175,24 @@ section {
 #submit-button:hover {
   background-color: #45a049; /* Color de fondo al pasar el ratón */
 }
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team-member {
+  flex: 1 1 calc(50% - 20px); /* Dos columnas con espacio */
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd; /* Opcional: para una separación visual */
+  border-radius: 8px; /* Opcional: bordes redondeados */
+}
+
+.team-member img {
+  width: 20%;
+  height: auto;
+  border-radius: 50%; /* Opcional: para una apariencia circular */
+}
