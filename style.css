@@ -2,4 +2,9 @@ html {
     height: 100%;
     width: 100%;
   }
-  
+
+  body {
+    font-family: 'Puppins', sans-serif;
+    line-height: 15px;
+    background-color: #f4f4f4;
+  }
