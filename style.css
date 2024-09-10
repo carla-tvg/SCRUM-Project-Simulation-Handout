@@ -21,7 +21,7 @@ body {
 
 nav {
   background-color: #000000;
-  padding: 10px;
+  padding: 12px;
   position: fixed; 
   top: 0;
   left: 0;
@@ -127,9 +127,13 @@ footer {
   width: 100%;
   padding: 10px; 
   margin-left: -10px;
-  animation-name: show;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
+  /*ANIMACION DE LA IMAGEN*/
+  view-timeline-name: --image;
+	view-timeline-axis: block;
+	animation-timeline: --image;
+	animation-name: show;
+  animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
 }
 
 .image img {
@@ -221,13 +225,16 @@ section {
 #contact-info {
   margin-top: 70px; 
 }
+/*ANIMACION DE LA IMAGEN*/
+
 @keyframes show {
-  from {
-    opacity: 0;
-    transform: scale(0.25);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+	from {
+		opacity: 0;
+		scale: 25%;
+	}
+
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
 }
