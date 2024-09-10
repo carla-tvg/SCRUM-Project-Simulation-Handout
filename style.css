@@ -127,6 +127,9 @@ footer {
   width: 100%;
   padding: 10px; 
   margin-left: -10px;
+  animation-name: show;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
 .image img {
@@ -217,4 +220,14 @@ section {
 }
 #contact-info {
   margin-top: 70px; 
+}
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: scale(0.25);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
