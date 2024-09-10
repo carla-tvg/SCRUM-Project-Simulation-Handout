@@ -23,8 +23,8 @@ nav {
   top: 0;
   left: 0;
   margin-bottom: 15px;
-  width: 100%; /* Asegura que el nav ocupe todo el ancho de la página */
-  z-index: 1000; /* Asegura que el nav esté por encima de otros elementos */
+  width: 100%; 
+  z-index: 1000; 
 }
 
 nav ul {
@@ -176,7 +176,7 @@ section {
 }
 
 #submit-button {
-  background-color: #555576; /* Color de fondo verde */
+  background-color: #555576;
   color: white; 
   padding: 12px 20px; 
   border-radius: 8px; 
@@ -185,7 +185,7 @@ section {
 }
 
 #submit-button:hover {
-  background-color: #45a049; /* Color de fondo al pasar el ratón */
+  background-color: #45a049; 
 }
 .team {
   display: flex;
@@ -195,19 +195,19 @@ section {
 }
 
 .team-member {
-  flex: 1 1 calc(50% - 20px); /* Dos columnas con espacio */
+  flex: 1 1 calc(50% - 20px); 
   box-sizing: border-box;
   text-align: center;
   padding: 10px;
-  border: 1px solid #ddd; /* Opcional: para una separación visual */
-  border-radius: 8px; /* Opcional: bordes redondeados */
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
 }
 
 .team-member img {
   width: 20%;
   height: auto;
-  border-radius: 50%; /* Opcional: para una apariencia circular */
+  border-radius: 50%;
 }
 #contact-info {
-  margin-top: 70px; /* Ajusta este valor según la altura del nav bar */
+  margin-top: 70px; 
 }
